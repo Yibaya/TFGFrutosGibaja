@@ -3,6 +3,9 @@ package com.example.tfg_frutosgibaja;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -16,10 +19,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.tfg_frutosgibaja.databinding.ActivityMainBinding;
 
+import org.w3c.dom.Text;
+
+import java.sql.SQLException;
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +50,9 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
     }
+    /*
 
+    */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
