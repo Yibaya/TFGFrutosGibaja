@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.tfg_frutosgibaja.databinding.ActivityMainBinding;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
@@ -17,7 +18,6 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.tfg_frutosgibaja.databinding.ActivityMainBinding;
 
 import org.w3c.dom.Text;
 
