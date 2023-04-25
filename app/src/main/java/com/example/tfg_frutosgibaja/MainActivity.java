@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initWidgets() {
-        listViewJuegos = findViewById(R.id.listViewJuegos);
+        listViewJuegos = findViewById(R.id.listViewTodosLosJuegos);
     }
 
     private void setJuegoAdapter(){
