@@ -23,8 +23,8 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
     <activity
-        android:id="@+id/activityPrintJuegos"
-        android:name="com.example.tfg_frutosgibaja.ActivityPrintJuegos"
-        android:label="activity_print_juegos"
-        tools:layout="@layout/activity_print_juegos" />
+        android:id="@+id/loginUsuarios"
+        android:name="com.example.tfg_frutosgibaja.LoginUsuarios"
+        android:label="activity_login_usuarios"
+        tools:layout="@layout/activity_login_usuarios" />
 </navigation>
